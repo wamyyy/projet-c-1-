@@ -6,11 +6,11 @@
 > Compatible with Windows (CMD), Linux, and macOS.
 
 <br>
-## <b>By : </b>
-Ayoub EL WAMY   /  </b>
-Achraf KADDOURI   /  </b>
-Abdellah OMALEK   /  </b>
-Taha BENZAKI   .  </b>
+## <b>Authors</b>
+- **Ayoub EL WAMY**
+- **ACHRAF KADDOURI**
+- **Abdellah OMALEK**
+- **Taha BENZAKI**
 
 ## <b>Overview</b>
 
@@ -81,30 +81,37 @@ All data is automatically saved into a text file and reloaded when the applicati
 
 <br>
 
-### <b>Build Project</b>
+### <b>Option 1: Quick Run (Linux / macOS)</b>
 
+You can configure, compile, and run the project automatically in one single step:
+
+```bash
+chmod +x run.sh
+./run.sh
+```
+
+<br>
+
+### <b>Option 2: Manual Build & Run</b>
+
+If you prefer to build and run the project manually:
+
+#### <b>1. Build the project:</b>
 ```bash
 cmake -S . -B build -DCMAKE_BUILD_TYPE=Release
 cmake --build build
 ```
 
-<br>
+#### <b>2. Run the application:</b>
 
-## <b>Run the Application</b>
-
-### <b>Linux / macOS</b>
-
-```bash
-./build/bin/todo_app
-```
-
-<br>
-
-### <b>Windows CMD</b>
-
-```bash
-build\bin\todo_app.exe
-```
+* **Linux / macOS:**
+  ```bash
+  ./build/bin/todo_app
+  ```
+* **Windows CMD:**
+  ```cmd
+  build\bin\todo_app.exe
+  ```
 
 <br>
 
@@ -114,9 +121,11 @@ build\bin\todo_app.exe
 
 ## <b>Project Structure</b>
 ```text
-TodoList/
+Cpp-ToDoList/
 ├── CMakeLists.txt
+├── .gitignore
 ├── README.md
+├── run.sh
 ├── include/
 │   ├── Task.h
 │   ├── TaskManager.h
