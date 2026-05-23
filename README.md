@@ -6,6 +6,11 @@
 > Compatible with Windows (CMD), Linux, and macOS.
 
 <br>
+## <b>By : </b>
+<b>Ayoub EL WAMY </b>
+<b>Achraf KADDOURI </b>
+<b>Abdellah OMALEK </b>
+<b>Taha BENZAKI </b>
 
 ## <b>Overview</b>
 
