@@ -1,3 +1,0 @@
-/home/achraf/Bureau/jadiddddddddddddddddddd/Cpp-ToDoList/build/CMakeFiles/todo_app.dir
-/home/achraf/Bureau/jadiddddddddddddddddddd/Cpp-ToDoList/build/CMakeFiles/edit_cache.dir
-/home/achraf/Bureau/jadiddddddddddddddddddd/Cpp-ToDoList/build/CMakeFiles/rebuild_cache.dir

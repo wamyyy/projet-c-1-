@@ -1,0 +1,21 @@
+# Build artifacts and CMake files
+build/
+bin/
+lib/
+CMakeFiles/
+CMakeCache.txt
+Makefile
+cmake_install.cmake
+*.o
+*.a
+*.so
+*.dylib
+*.exe
+*.d
+
+# Runtime task data
+data/
+
+# OS specific files
+.DS_Store
+Thumbs.db
